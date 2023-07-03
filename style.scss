@@ -1,0 +1,31 @@
+:root {
+    --body-bg: #F5F5FB;
+    --side-bg: #FFFFFF;
+    --box-bg: #C4C4C4;
+    --box-gap: 20px;
+    --side-l-w: 200px;
+    --side-r-w: 250px;
+    }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 10px;
+    border: 1px solid black; 
+}
+.logo {
+    font-size: 10px;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-style: 1px solid black;
+  }
+.nav-links li{
+    text-decoration: none;
+  }
+
